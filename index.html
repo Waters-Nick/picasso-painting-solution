@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="grid">
+    <div class="header-1"></div>
+    <div class="header-2"></div>
+    <div class="header-3"></div>
+    <div class="main"></div>
+    <div class="footer"></div>
+  </div>
+  <hr/>
+  <div class="mailing-list-text">
+    <h2>Interested in more artwork?</h2>
+    <p>Join our mailing list today by submitting the form below!</p>
+  </div>
+  <form action="./form-submission.html">
+    <div class="fname">
+      <label for="first-name">First Name: </label>
+      <input type="text" id="first-name" placeholder="John" required>
+    </div>
+    <div class="lname">
+      <label for="last-name">Last Name: </label>
+      <input type="text" id="last-name" placeholder="Smith" required>
+    </div>
+    <div class="email">
+      <label for="mail">Email: </label>
+      <input type="email" id="mail" placeholder="jsmith@gmail.com" required> 
+    </div>
+    <button type="submit" id="submit-btn">Join Mailing List</button>
+  </form>
+</body>
+</html>
